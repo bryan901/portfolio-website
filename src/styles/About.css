@@ -1,3 +1,16 @@
 .about {
-    background-color: coral;
+    background-color: white;
+    overflow: hidden;
+}
+
+.side-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.small-image {
+    width:30%;
+    height:30%;
 }

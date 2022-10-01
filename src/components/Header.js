@@ -5,7 +5,7 @@ import {Mail, LocalPhone} from '@material-ui/icons'
 export default function Header(){
     return(
         <nav className = "nav">
-            <div className = "left">
+            <div className = "left-navbar">
                 <a href = "#home" className = "title"> bryan's portfolio. </a>
                 <div className = "contact-container">    
                     <Mail className = "icon"/>

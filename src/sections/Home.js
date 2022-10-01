@@ -1,7 +1,10 @@
 import "../styles/Home.css";
 import React from 'react';
+import {init} from 'ityped';
+import Typewriter from 'typewriter-effect';
 
 export default function Home() {
+
   return (
     <div className="home" id= "home">
         <div className ="left">
@@ -12,7 +15,15 @@ export default function Home() {
         <div className = "bottom">
             <h2 className = "h2">Hello, I'm</h2>
             <h1 className = "h1">Bryan Lee</h1>
-            <span className = "span">hihihihih</span>
+            <Typewriter className = "text"
+              options={{ 
+              strings:["CS Student @ UCSD", "Software Engineer", "LGBTQ Activist"],
+              autoStart:true,
+              delay:75,
+              loop:true,
+              wrapperClassName: "text",
+              cursor: ""
+            }}/> 
         </div>
     </div>
   );
