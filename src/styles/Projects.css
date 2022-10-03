@@ -1,3 +1,44 @@
 .projects {
     background-color: white;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+}
+
+.projects-header{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 10%;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.projects-title-text{
+    color: darkslateblue;
+    margin-top: 10px;
+}
+
+.projects-subtitle-text{
+    font-size: 20px;
+    color: gray;
+    margin-top: 10px;
+}
+
+.project-container{
+    margin-top: 5px;
+    height: 90%;
+    width: 70%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.3rem;
 }

@@ -1,0 +1,26 @@
+.project-main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 400px;
+    height: 400px;
+    background-color: whitesmoke;
+    overflow: hidden;
+}
+
+.project-logo{
+    border-radius: 15px;
+    border: 6px solid darkslateblue;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.5);
+    height: 55%;
+    width: 65%;
+    margin-top: 2vh;
+    overflow: hidden;
+}
+
+.project-name-specific{
+    margin-top: 5px;
+    font-size: 22px;
+    margin-bottom: 5px;
+}
