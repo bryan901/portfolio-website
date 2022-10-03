@@ -1,3 +1,44 @@
 .skills {
     background-color: white;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+.skills-header{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 10%;
+    align-items: center;
+    margin-bottom: 10px;
 }
+
+.skills-title-text{
+    color: darkslateblue;
+    margin-top: 10px;
+}
+
+.skills-subtitle-text{
+    font-size: 20px;
+    color: gray;
+    margin-top: 10px;
+}
+
+.skill-container{
+    margin-top: 5px;
+    height: 90%;
+    width: 70%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.skills-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0.3rem;
+} 
