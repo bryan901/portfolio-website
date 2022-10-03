@@ -1,6 +1,5 @@
 import "../styles/Home.css";
 import React from 'react';
-import {init} from 'ityped';
 import Typewriter from 'typewriter-effect';
 
 export default function Home() {
@@ -17,7 +16,7 @@ export default function Home() {
             <h1 className = "h1">Bryan Lee</h1>
             <Typewriter className = "text"
               options={{ 
-              strings:["CS Student @ UCSD", "Software Engineer", "LGBTQ Activist"],
+              strings:["CS @ UCSD", "Software Engineer", "LGBTQ Activist"],
               autoStart:true,
               delay:75,
               loop:true,
