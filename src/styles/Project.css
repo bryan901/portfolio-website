@@ -15,7 +15,7 @@
 
 .project-logo{
     border-radius: 15px;
-    border: 6px solid darkslateblue;
+    border: 5px solid darkslateblue;
     box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.5);
     height: 55%;
     width: 65%;
@@ -31,7 +31,6 @@
 }
 
 .project-description-specific{
-    margin-top: 5px;
-    margin-right: 5vh;
-    margin-left: 5vh;
+    margin-right: 4vh;
+    margin-left: 4vh;
 }

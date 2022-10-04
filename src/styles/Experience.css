@@ -27,6 +27,7 @@
 
 .description{
     margin-top: -10px;
+    margin-bottom: 5px;
 }
 
 .top-part {
@@ -40,8 +41,8 @@
 }
 
 .company-logo {
-    width: 80%;
-    height: 80%;
+    width: 70%;
+    height: 90%;
 }
 
 .role {

@@ -13,12 +13,14 @@
 }
 
 .skill-logo{
+    border: 5px solid darkslateblue;
     border-radius: 50%;
     height: 55%;
     width: 60%;
-    background-color: darkcyan;
     margin-top: 2vh;
-    overflow: hidden;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .skill-name-specific{
@@ -29,7 +31,8 @@
 }
 
 .skill-description-specific{
-    margin-top: 5px;
+    margin-top: 0px;
     margin-right: 5vh;
     margin-left: 5vh;
+    overflow: hidden;
 }

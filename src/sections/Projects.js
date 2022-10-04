@@ -11,7 +11,11 @@ export default function Projects() {
       </div>
       <div className = "project-container">
         <div className = "column">
-          <Project/>
+          <Project
+            image = "assets/moodtracker.png"
+            title = "VibeCheck"
+            description = "Calendar web app that reflects user daily mood by extracting audio features from recently played songs and determining mood using Mage.AI categorization model"
+          />
           <Project/>
         </div>
         <div className = 'column'>
