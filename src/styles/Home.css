@@ -8,8 +8,8 @@
 }
 
 .background-circle{
-    width: 600px;
-    height: 600px;
+    width: 30vw;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,6 +40,12 @@
 }
 
 .image {
-    width: 95%;
+    width: 30vw;
+    height: auto;
+    border: 12px solid darkslateblue;
     border-radius: 50%;
+}
+
+.bottom {
+
 }

@@ -34,6 +34,7 @@
     align-items: center;
     justify-content: space-between;
     overflow: hidden;
+    text-align: center;
 }
 
 .column {

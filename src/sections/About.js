@@ -27,11 +27,8 @@ export default function About() {
           <h1 className="about-h1">Bryan Lee Hao Kai</h1>
           <h2 className = "about-h2">UCSD '2024, Expected B.S. in Computer Science</h2>
           <body className = "about-body">
-            I asdinweoi weoidfjiowed qoijwqoidjiowed iowedjiojwedij weodioj
-            asdasdasdasdsa asdasdasdsad I asdinweoi weoidfjiowed qoijwqoidjiowed
-            iowedjiojwedij weodioj asdasdasdasdsa asdasdasdsad I asdinweoi
-            weoidfjiowed qoijwqoidjiowed iowedjiojwedij weodioj asdasdasdasdsa
-            asdasdasdsad I asdinweoi weoidfjiowed qoijwqoidjiowed iowedjiojwedij
+          I am an undergraduate student majoring in Computer Science at UCSD. My most relevant technical experience lies in Java, Python, the MERN (MongoDB, Express.js, React.js, Node.js) stack, SQL, and basic C, but I am always excited to learn new technologies and innovate. I am interested in software engineering and have a passion for mobile app development. 
+          I play for the UCSD Men's Club Volleyball team in my free time and love basketball!
           </body>
           <a href="https://drive.google.com/file/d/13TkHDRL03XpWsa-teEq_4ixuYMo2fkxh/view?usp=sharing" target = "_blank">
             <Button style = {style}> Resume </Button>
